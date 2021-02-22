@@ -1,0 +1,281 @@
+@function vw($n) {
+    @return ($n *100 / 750) + vw;
+}
+
+
+
+// .wrap{
+//     overflow-x: hidden;
+//     // min-height: vw(500);
+// }
+
+.boyTop{
+    overflow-x: hidden;
+    width: vw(690);
+    height: vw(35);
+    background: #47a1df;
+    color: white;
+    font-size: vw(35);
+    padding: vw(26) vw(30);
+    line-height: vw(35);
+        p{
+            display: inline-block;
+            width: vw(170);
+            padding: 0 vw(220);
+            span{
+                display: inline-block;
+               
+            }
+            .girls{
+                margin-left: vw(30);
+                opacity: .5;
+            }
+
+        }
+        .boyI{
+            margin-right: 0;
+        }
+
+}
+.boyMain{
+    width: 100%;
+    min-height: vw(3795);
+    
+    .Carousel{
+        width: vw(750);
+        height: vw(280);
+        position: relative;
+        img{
+            height: vw(280);
+        }
+        
+      
+    }
+    .ch2,.com-sec,.free,.newBook,.classics{
+        height: vw(1004);
+        border-bottom: vw(5) solid #2e94db;
+        h3{
+            width: vw(700);
+            font-size: vw(38);
+            line-height: vw(38);
+            color: #333;
+            padding: vw(42) vw(25) vw(25);
+        }
+        li{
+            width: vw(700);
+            height: vw(250);
+            padding: vw(20) vw(25);
+            div{
+                float: left;
+                width: vw(475);
+                margin-left: vw(30);
+            }
+            a{
+                color:#333 ;
+            }
+            img{
+                width: vw(195);
+                float: left;
+            }
+            h4{
+                font-size: vw(33);
+            }
+            span{
+                font-size: vw(25);
+                display: block;
+                padding-top: vw(30);
+                color: #808080;
+            }
+            p{
+                width: 100%;
+                height: vw(100);
+                padding-top: vw(50);
+                font-size: vw(22);
+                line-height: vw(35);
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 3;
+                overflow: hidden;
+                color: #929292;
+            }
+        }
+    }
+
+    .com-sec,.classics{
+        height: vw(850);
+        ul{
+            width: 100%;
+            height: vw(720);
+            
+        }
+        li{
+            width: vw(180);
+            height: vw(298);
+            float: left;
+            padding: vw(30) vw(26);
+            padding-right: vw(43);
+           
+            span{
+                width: 100%;
+                font-size: vw(28);
+                display: inline-block;
+                padding-top: vw(20);
+                text-align: center;
+            }
+        }
+    }
+    .free{
+        height: vw(715);
+        // li{
+            
+        // }
+        h4{
+            position: relative;
+            span{
+                display: inline-block;
+                position: absolute;
+                right: 0;
+                font-size: vw(26);
+                padding-top: 0;
+                color: #904b07;
+            }
+        }
+    }
+    .newBook{
+        height: vw(708);
+       .pic1{
+            margin-left: 0;
+            width:vw(195) ;
+            position: relative;
+            b{
+                display: inline-block;
+                width: 0px;
+                height: 0px;
+                border-top: vw(100) solid  #47a1df;
+                border-right: vw(100) solid transparent;
+                position: absolute;
+                opacity: .8;
+                
+            }
+            i{
+                color: #fff;
+                position: absolute;
+                font-weight: normal;
+                top: vw(13);
+                left: vw(15);
+                z-index: 9;
+            }
+        }
+        h3{
+            position: relative;
+            em{
+                font-size: vw(28);
+                vertical-align: top;
+                position: absolute;
+                right: 0;
+                padding-right: vw(25);
+            }
+            em>i{
+                padding-right: vw(10);
+            }
+        }
+        .list p{
+            font-size: vw(30);
+            height: vw(35);
+            padding: vw(20) vw(25);
+            a{
+                color: #333;
+            }
+
+           .num{
+               text-align: center;
+                color: #fff;
+                display: inline-block;
+                width: vw(40);
+                height: vw(40);
+                background:#47a1df ;
+                margin-right: vw(20);
+            }
+            
+        }
+        .list p:nth-child(1) i.num {
+            opacity: .9;
+        }
+        .list p:nth-child(2) i.num {
+            opacity: .7;
+        }
+        .list p:nth-child(3) i.num {
+            opacity: .5;
+        }
+        .list p:nth-child(4) i.num {
+            opacity: .3;
+        }
+
+    }
+    .classics{
+        height: vw(528);
+    }
+}
+.bottom{
+    width: 100%;
+    height: vw(635);
+    .app-down{
+        padding: vw(128) vw(25);
+        text-align: center;
+        .app-link{
+            display: block;
+            width: vw(695);
+            height: vw(83);
+            line-height: vw(83);
+            text-align: center;
+            color: white;
+            font-size: vw(28);
+            background: #ef8c1f;
+            border: vw(1) solid  #dc821c;
+            margin-bottom: vw(20);
+            border-radius: vw(5);
+        }
+        span{
+            font-size: vw(20);
+            color: gray;
+        }
+
+    }
+    .login{
+        height: vw(38);
+        width: vw(690);
+        padding: 0 vw(28) vw(40);
+        position: relative;
+        color: #47a1df;
+    }
+    .login em{
+        
+        font-style: normal;
+        position: absolute;
+        right: vw(28);
+    }
+    .search{
+        width: 100%;
+        height: vw(178);
+        background: #47a1df;
+        position: relative;
+        input{
+            width: vw(700);
+            height: vw(90);
+            border: none;
+            border-radius: vw(10);
+            margin: vw(40) vw(25);
+            text-indent: vw(22);
+            
+            
+        }
+        .magnifier{
+            position: absolute;
+            font-size: vw(60);
+            top: vw(45);
+            right: vw(50);
+            color: #47a1df ;
+        }
+    }
+    
+}

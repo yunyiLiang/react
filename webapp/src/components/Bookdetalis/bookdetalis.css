@@ -1,0 +1,577 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.bookdedalisbox {
+    height: 100%;
+    width: 100%;
+    flex: 1;
+}
+
+.top-navbar {
+    background: #393939;
+    Color: white;
+
+}
+
+.top-content {
+    /* height: 10.25rem; */
+    height: 8.888889rem;
+    /* background: #464646; */
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 0.711111rem solid #606060;
+}
+
+i {
+    font-style: normal;
+}
+
+.top-content .top-content-left {
+    margin-right: 0.75rem;
+}
+
+.top-content .top-content-left img {
+    width: 6.5625rem;
+    height: 8.75rem;
+}
+
+.top-content .top-content-right {
+    /* width: 4rem; */
+    width: 14.222222rem;
+
+}
+
+.top-content .top-content-right h3 {
+    margin-bottom: 0.75rem;
+}
+
+.top-content .top-content-right p {
+    margin-bottom: 0.625rem;
+    font-size: 0.5rem;
+    /* width: 2rem; */
+}
+
+.top-content .top-content-right p a:nth-child(1) {
+    color: red;
+    margin-right: 0.533333rem;
+}
+
+
+
+.top-content .top-content-right p a:nth-child(3) {
+    color: orange;
+    margin-left: 0.533333rem;
+}
+
+.top-content-right .top-content-left-text {
+    margin-left: 10.666667rem;
+
+
+}
+
+.top-content-right .top-content-left-text a {
+    background: #f0f1f3;
+    font-size: 0.106667rem;
+    color: #92a5b7;
+
+}
+
+.top-content-right .top-content-left-text a:nth-child(1) {
+
+    /* margin-left: 0.177778rem; */
+    margin-right: 0.533333rem;
+}
+
+
+/* 按钮区域================= */
+
+.top-botton-box {
+    /* height: 4.346667rem; */
+    height: 4rem;
+    background-color: orange;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0.711111rem solid #606060;
+}
+
+.top-botton-box div {
+    height: 2.488889rem;
+    background: cyan;
+    text-align: center;
+    line-height: 2.488889rem;
+    width: 6.755556rem;
+    border-radius: 0.266667rem;
+}
+
+.top-botton-box .top-botton-box1 {
+    background: #0ae;
+    color: white;
+}
+
+.top-botton-box .top-botton-box2 {
+    background: white;
+    color: #0ae;
+    border: 0.008889rem solid #0ae;
+}
+
+.top-botton-box .top-botton-box3 {
+    background: white;
+    color: #0ae;
+    border: 0.008889rem solid #0ae;
+}
+
+
+/* 简介框++++++++++++++++++++++++++++++++++++++++ */
+.conten-center-box {
+    height: 12.444444rem;
+    /* background: skyblue; */
+    border-bottom: 0.711111rem solid #606060;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.c-center-topbox {
+    height: 3.377778rem;
+    padding-left: 0.75rem;
+    line-height: 3.377778rem;
+    font-size: 0.622222rem;
+    border-bottom: 0.017778rem solid #606060;
+}
+
+.c-center-topbox h2 {
+    /* font-size: 0.622222rem; */
+    padding-left: 0.355556rem;
+    display: inline;
+    border-left: 0.4rem solid #0ae;
+    height: 0.622222rem;
+    line-height: 3.377778rem;
+}
+
+
+/* 简介的中部 */
+.c-center-centerbox {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    border-bottom: 0.017778rem solid #606060;
+}
+
+
+
+
+
+/* 简介的下半部分 */
+.c-center-botommbox {
+    height: 3.377778rem;
+    display: flex;
+    flex-direction: row;
+    line-height: 3.377778rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+
+}
+
+.c-c-bottombox-a a {
+    color: black;
+    font-size: 0.355556rem;
+    padding-right: 0.266667rem;
+    border-right: 0.035556rem solid #0ae;
+}
+
+.c-c-bottombox-c {
+    font-size: 0.177778rem;
+    margin-left: 0.266667rem;
+}
+
+.c-c-bottombox-d {
+    font-size: 0.177778rem;
+    margin-left: 8.5rem;
+    color: #0ae;
+}
+
+
+/* 打赏框+++++++++++++++++++++++++++++++++++++ */
+.payfor-author-box {
+    height: 22.222222rem;
+    /* background: skyblue; */
+    border-bottom: 0.711111rem solid #606060;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.pay-titel-topbox {
+    height: 3.377778rem;
+    padding-left: 0.75rem;
+    line-height: 3.377778rem;
+    font-size: 0.622222rem;
+    border-bottom: 0.017778rem solid #606060;
+}
+
+.pay-titel-topbox h2 {
+    padding-left: 0.355556rem;
+    display: inline;
+    border-left: 0.4rem solid #0ae;
+    height: 0.622222rem;
+    line-height: 3.377778rem;
+}
+
+/* 中部份+++++++++++++———————— */
+.pay-conten-two {
+    height: 6.222222rem;
+    /* height: 5.155556rem; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    align-items: center;
+}
+
+.pay-conten-tow-left {
+    /* display: block; */
+    width: 9.777778rem;
+    height: 4.266667rem;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* line-height: 5.333333rem; */
+}
+
+.pay-conten-tow-left span:nth-child(1) {
+    margin-top: 0.888889rem;
+    color: #0ae;
+}
+
+.pay-conten-tow-left span:nth-child(2) {
+    margin-top: 0.533333rem;
+    color: #00AAEE;
+    opacity: 0.5;
+}
+
+.pay-conten-tow-right {
+    /* display: block; */
+    width: 9.777778rem;
+    /* height: 5.333333rem; */
+    height: 4.266667rem;
+    background: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    /* line-height: 5.333333rem; */
+}
+
+.pay-conten-tow-right span:nth-child(1) {
+    margin-top: 0.888889rem;
+    color: #f15a4a;
+}
+
+.pay-conten-tow-right span:nth-child(2) {
+    margin-top: 0.533333rem;
+    color: #f15a4a;
+    opacity: 0.5;
+}
+
+
+/* 用户氪金排行板 */
+.user-pay-detalis {
+    height: 2.844444rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0.017778rem solid #606060;
+}
+
+
+.user-pay-number {
+    background: url(https://s.zhulang.com/wap/pub/v3/style/img/ht-num.png) no-repeat;
+    background-size: 100% 100%;
+    height: 1.955556rem;
+    width: 1.422222rem;
+    margin-left: 0.75rem;
+    text-align: center;
+    line-height: 1.955556rem;
+    color: #f0f0f0;
+    margin-right: 0.8rem;
+}
+
+.user-pay-detalis p:nth-child(2) {
+    margin-right: 8.711111rem;
+}
+
+.show-look-many {
+    height: 3.377778rem;
+    padding-left: 0.75rem;
+    line-height: 3.377778rem;
+    font-size: 0.622222rem;
+    /* border-bottom: 0.017778rem solid #606060; */
+    text-align: center;
+
+}
+
+.show-look-many a {
+    font-size: 0.355556rem;
+    color: #0ae;
+}
+
+.show-look-many a span {
+    position: absolute;
+    top: 52.3rem;
+    width: 0.266667rem;
+    height: 0.266667rem;
+    border-top: 0.266667rem solid #0ae;
+    border-right: 0.266667rem solid #0ae;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    right: 10;
+    -webkit-transform: translate3d(0, -50%, 0) rotate(45deg);
+    transform: translate3d(0, -50%, 0) rotate(45deg);
+}
+
+
+
+/* 评论区 ++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.user-comment-box {
+    height: 13.422222rem;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 0.711111rem solid #606060;
+}
+
+.user-comment-top {
+    display: flex;
+    flex-direction: row;
+    height: 3.377778rem;
+    padding-left: 0.75rem;
+    /* line-height: 3.377778rem; */
+    font-size: 0.622222rem;
+    border-bottom: 0.017778rem solid #606060;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-comment-top h2 {
+    padding-left: 0.355556rem;
+    display: inline;
+    border-left: 0.4rem solid #0ae;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.user-comment-top p {
+    padding-right: 0.75rem;
+    font-size: 0.088889rem;
+    color: #0ae;
+}
+
+
+.user-comment-centen {
+    height: 5.3rem;
+    display: flex;
+    flex-direction: row;
+    padding: 0.75rem;
+    border-bottom: 0.017778rem solid #606060;
+
+}
+
+.user-comment-centen img {
+    height: 2.222222rem;
+    width: 2.222222rem;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+}
+
+.user-comment-centen p:nth-child(1) span:nth-child(1) {
+    font-size: 0.177778rem;
+    margin-right: 6.111111rem;
+}
+
+.user-comment-centen p:nth-child(1) span:nth-child(2) {
+    font-size: 0.01rem;
+    opacity: 0.5;
+}
+
+.user-comment-centen p:nth-child(2) {
+    margin-top: 0.8rem;
+}
+
+.user-comment-centen p:nth-child(2) span:nth-child(1) {
+    font-size: 0.266667rem;
+    background: red;
+    color: white;
+    margin-right: 0.533333rem;
+
+}
+
+.user-comment-centen p:nth-child(2) span:nth-child(2) {
+    font-size: 0.25rem;
+    /* background: red; */
+    color: red;
+
+}
+
+
+.user-comment-centen p:nth-child(3) {
+    font-size: 0.266667rem;
+    margin-top: 0.4rem;
+
+}
+
+.user-comment-detalis-right-bottom {
+    margin-top: 0.7rem;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.user-comment-detalis-right-bottom span {
+    font-size: 0.106667rem;
+    opacity: 0.5;
+}
+
+.user-comment-detalis-right-bottom span:nth-child(1) {
+    /* background: skyblue; */
+
+    margin-left: 10.966667rem;
+
+}
+
+.user-comment-detalis-right-bottom span:nth-child(2) {
+    margin-left: 3.213333rem;
+
+
+}
+
+/* 下部 */
+.user-comment-button-down {
+    display: flex;
+    flex-direction: row;
+    height: 3.377778rem;
+    padding-left: 0.75rem;
+    /* line-height: 3.377778rem; */
+    font-size: 0.622222rem;
+    /* border-bottom: 0.017778rem solid #606060; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user-comment-button-down a {
+    color: #0ae;
+
+
+}
+
+.user-comment-button-down i {
+    font-size: 1.166667rem;
+    opacity: 0.5;
+}
+
+
+.onther-works-top {
+    display: flex;
+    flex-direction: row;
+    height: 3.377778rem;
+    padding-left: 0.75rem;
+    /* line-height: 3.377778rem; */
+    font-size: 0.622222rem;
+    border-bottom: 0.017778rem solid #606060;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.onther-works-top h2 {
+    padding-left: 0.355556rem;
+    display: inline;
+    border-left: 0.4rem solid #0ae;
+    height: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.onther-works-top p {
+    padding-right: 0.75rem;
+    font-size: 0.088889rem;
+    /* color: #0ae; */
+    opacity: 0.5;
+}
+
+.onther-works-works {
+    display: flex;
+    flex-direction: row;
+    padding: 0.75rem;
+    text-align: center;
+}
+
+.onther-works-works a {
+    margin-right: 1.5rem;
+
+}
+
+.onther-works-works a img {
+    height: 6.897778rem;
+    width: 5.186667rem;
+}
+
+.onther-works-works a span {
+    text-align: center;
+    color: #606060;
+    margin-top: 0.75rem;
+    width: 5.186667rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box; 
+    /* //作为弹性伸缩盒子模型显示。 */
+    -webkit-box-orient: vertical; 
+    /* //设置伸缩盒子的子元素排列方式--从上到下垂直排列 */
+    -webkit-line-clamp: 1; 
+    /* //显示的行 */
+}
+
+
+/* app下载++++++++++++++++++++++++++++++++++++++ */
+.app-down-box {
+    padding: 5.71875rem .3125rem .3125rem;
+    background: #e4dfdf;
+    height: 5.333333rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.app-down-box a {
+    margin-bottom: 0.75rem;
+    text-align: center;
+    line-height: 2.566667rem;
+    width: 21.333333rem;
+    height: 2.566667rem;
+    background: orange;
+    border-radius: 0.266667rem;
+}
+
+
+/* 登录回到顶部+++++++++++++++++++++++++++++++++++++++++++++++ */
+.login-index-button {
+    /* height: 5.333333rem; */
+    padding: 3.3rem 0.75rem 1.2rem 0.75rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.login-index-button a {
+    color: #0ae;
+    font-size: 1.044444rem;
+
+}

@@ -1,0 +1,117 @@
+@function vw($n) {
+   @return ($n *100 / 750)+vw;
+}
+.reg{
+   .am-navbar {
+      background-color: #47a1df;
+   }
+   
+   ul li {
+   
+      // display: block;
+      display: inline-block;
+      width: vw(700);
+      height: vw(100);
+      border-radius: vw(10);
+      background: #fff;
+      border: none;
+      margin: vw(30) 0 0 vw(25);
+      line-height: vw(100);
+      color: #555;
+      
+   
+      label {
+         color: #555;
+         margin: 0 vw(30) 0 vw(22);
+         display: inline-block;
+
+      }
+   
+      input {
+         width: vw(550);
+         height: vw(60);
+         border: none;
+      }
+      
+   
+      #pass {
+         margin-left: vw(21);
+      }
+   }
+   
+   #btn {
+      display: block;
+      
+      text-align: center;
+      width: vw(700);
+      height: vw(100);
+      color: #fff;
+      font-size: vw(34);
+      border-radius: vw(10);
+      background: #4fc25e;
+      border: none;
+      margin: vw(30) 0 0 vw(25);
+      line-height: vw(100);
+   }
+   
+   .auth-reg {
+      padding: vw(140) vw(25) vw(10) vw(25);
+   
+      h2 {
+         font-size: vw(22);
+         color: #9c9c9c;
+         text-align: center;
+      }
+   
+   }
+   
+   .log{
+      position: absolute;
+      top:vw(520);
+      right:0;
+      font-size:vw(16);
+      color:#000;
+      .login{
+         display: inline;
+         color:#47a1df;
+      }
+   }
+   
+   .auth-btn {
+      width: vw(620);
+      height: vw(95);
+      padding: vw(58) vw(65) 0;
+   
+      p {
+         width: 100%;
+         height: 100%;
+         display: flex;
+         justify-content: space-between;
+      }
+   
+      img {
+         width: vw(245);
+      }
+   }
+}
+
+.regForm{
+   padding: vw(35) vw(20) 0 vw(30) ;
+   Input{
+   width: vw(680);
+   height: vw(80);
+   text-indent:vw(20);
+   display: inline-block;
+   border: vw(.1) solid #dfdfdf;
+   border-radius: vw(8);
+   }
+   svg{
+      display: none;
+   }
+   .btn{
+     
+      background-color: transparent;
+      border: 0;
+   }
+   
+}

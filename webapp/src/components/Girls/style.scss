@@ -1,0 +1,50 @@
+@function vw($n) {
+    @return ($n *100 / 750) + vw;
+}
+
+
+    .girlsTop{
+        background: #f46a94;
+        p{
+            .boy{
+                opacity: .5;
+            }
+            .girls{
+                opacity: 1;
+            }
+    
+        }
+       
+        
+    }
+    .girlsMain{
+        width: 100%;
+        min-height: vw(3795);
+        .ch2,.com-sec,.free,.newBook,.classics{
+          
+            border-bottom: vw(5) solid #f46a94;
+        }
+
+        .newBook{
+            .pic1 b{
+                border-top: vw(100) solid  #f46a94;
+     
+            }
+            .list p{
+    
+                .num{
+                    background: #f46a94;
+                }
+
+            }
+
+        } 
+
+
+    }
+    
+    
+    
+    
+
+
